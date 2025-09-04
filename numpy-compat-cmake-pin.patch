@@ -1,0 +1,18 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index eb764cb8..80af54d3 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -3,10 +3,10 @@ requires = [
+     "setuptools",
+     "wheel",
+     "astunparse",
+-    "numpy",
++    "numpy<2.0",
+     "ninja",
+     "pyyaml",
+-    "cmake",
++    "cmake==3.31.6",
+     "typing-extensions",
+     "requests",
+ ]
+
